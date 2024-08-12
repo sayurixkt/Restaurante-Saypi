@@ -1,0 +1,166 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  .navi {
+    padding: 10px;
+    border-bottom: 2px solid #337ab7;
+  }
+  
+  .navi:hover {
+    border-bottom: 2px solid #23527c;
+  }
+  
+  /* Main Content Styles */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  #categorias {
+    width: 70%;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .pratoB, .pratoM, .pratoR, .prato {
+    margin-bottom: 20px;
+  }
+  
+  /* Aside Styles */
+  
+  .avaliacoes {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #av1, #av2, #av3, #av4 {
+    margin-bottom: 20px;
+  }
+  
+  .cliente {
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer h5 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    #categorias {
+      width: 100%;
+    }
+    .avaliacoes {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    section {
+      margin: 10px;
+    }
+    .pratoB, .pratoM, .pratoR, .prato {
+      margin-bottom: 10px;
+    }
+  }

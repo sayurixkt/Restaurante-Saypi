@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saypi Food Delivery</title>
+    <link rel="stylesheet" href="./style/avalia.css">
+</head>
+
+<body>
+    <header>
+        <h1>Saypi Delivery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="avalia.html">Avaliação</a></li>
+            <li><a href="chat.html">Chat</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Avaliação</h2>
+        <p>Deixe a sua avaliação, ela é importante para estarmos sempre melhorando!</p>
+
+        <form action="">
+            <fieldset style="width:500px">
+                <legend>CLIENTE</legend>
+                <label for="nome"><b>Nome</b></label><br>
+                <input type="" id="nome" name="nome" value="" size="45" required><br>
+            </fieldset>
+            <fieldset style="width:500px">
+                <legend>PEDIDO</legend>
+                <label for="pratos"><b>Pratos</b></label><br>
+                <input type="checkbox" id="feijoada">Feijoada
+                <input type="checkbox" id="estrogonofe">Estrogonofe de Frango
+                <input type="checkbox" id="contrafile">Contra-filé<br><br>
+                <input type="checkbox" id="lasanha">Lasanha à bolonhesa
+                <input type="checkbox" id="talharim">Talharim ao molho 4 queijos
+                <input type="checkbox" id="gnocci">Gnocci ao molho rosé<br><br>
+                <input type="checkbox" id="yakissoba">Yakissoba
+                <input type="checkbox" id="lamen">Tonkatsu Lámen
+                <input type="checkbox" id="domburi">Domburi de frango<br><br>
+                <input type="checkbox" id="burguer">X-burguer com fritas
+                <input type="checkbox" id="frango">X-frango com fritas
+                <input type="checkbox" id="bacon">X-bacon com fritas<br><br>
+
+                <label for="bebida"><b>Bebidas</b></label><br>
+                <input type="checkbox" id="slaranja" value="Suco de Laranja">Suco de Laranja
+                <input type="checkbox" id="slimao"> Suco de Limão
+                <input type="checkbox" id="sabacaxi">Suco de Abacaxi<br><br>
+                <input type="checkbox" id="sacai">Suco de Açaí
+                <input type="checkbox" id="smorango">Suco de Morango
+                <input type="checkbox" id="suva">Suco de Uva<br><br>
+                <input type="checkbox" id="coca">Coca-Cola
+                <input type="checkbox" id="guarana">Guaraná
+                <input type="checkbox" id="flaranja">Fanta Laranja<br><br>
+                <input type="checkbox" id="fuva">Fanta Uva
+                <input type="checkbox" id="fmaracuja">Fanta Maracujá
+                <input type="checkbox" id="h20">H20<br><br>
+                <input type="checkbox" id="aguasgas">Água sem gás
+                <input type="checkbox" id="aguacgas">Água com gás<br>
+            </fieldset>
+
+            <fieldset style="width:500px">
+                <legend>ENTREGA</legend>
+                <label for="entrega"><b>Como você avalia a entrega do seu pedido?</b></label><br>
+                <input type="radio" name="avalicao" id="excelente" >Excelente 
+                <input type="radio" name="avaliacao" id="">Boa
+                <input type="radio" name="avaliacao" id="">Regular
+                <input type="radio" name="avaliacao" id="">Ruim
+                <input type="radio" name="avaliacao" id="">Insatisfatória
+            </fieldset>
+            <fieldset style="width:500px">
+                <legend>MENSAGEM</legend>
+                <label for="comment"><b>Gostaria de deixar um comentário adicional?</b></label>
+                <textarea id="comentario" name="comentario" rows="10" cols="65"></textarea>
+            </fieldset>
+
+            <!---ÁREA DESTINADA PARA COLOCAR A AVALIAÇÃO DE ESTRELAS-->
+
+            <br><input type="submit" value="Enviar">
+
+
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
