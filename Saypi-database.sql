@@ -196,6 +196,38 @@ MODIFY COLUMN idbebida int NOT NULL;
 ALTER TABLE Pedido
 MODIFY COLUMN idcliente int NOT NULL;
 
+UPDATE Prato
+SET pratonome = "X-burguer com fritas"
+WHERE idprato = 5;
+
+UPDATE Prato
+SET pratonome = "X-frango com fritas"
+WHERE idprato = 6;
+
+UPDATE Prato
+SET pratonome = "X-bacon com fritas"
+WHERE idprato = 7;
+
+UPDATE Prato
+SET pratonome = "Talharim ao molho 4 queijos"
+WHERE idprato = 8;
+
+UPDATE Prato
+SET pratonome = "Gnocci ao molho rosé"
+WHERE idprato = 9;
+
+UPDATE Prato
+SET pratonome = "Tonkatsu lámen"
+WHERE idprato = 10;
+
+UPDATE Prato
+SET pratonome = "Domburi de frango"
+WHERE idprato = 11;
+
+UPDATE Prato
+SET pratonome = "Contra-filé"
+WHERE idprato = 12;
+
 SELECT * FROM Prato;
 SELECT * FROM Bebidas;
 SELECT * FROM Clientes;
